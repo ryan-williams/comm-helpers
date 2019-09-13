@@ -12,4 +12,3 @@ else
 fi
 
 comm ${args[@]} <(sort "$first_file" | $ws_cmd) <(sort "$second_file" | $ws_cmd)
-
